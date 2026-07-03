@@ -1,0 +1,58 @@
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+slowapi==0.1.9
+
+# --- Settings / validation ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# --- Database ---
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.10
+
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1  # pinned: passlib 1.7.4's version-sniffing breaks on bcrypt>=4.1
+
+# --- Background jobs ---
+celery==5.4.0
+redis==5.2.1
+
+# --- Storage ---
+boto3==1.35.97
+
+# --- File type / validation ---
+python-magic==0.4.27
+
+# --- Document converters ---
+PyMuPDF==1.25.1
+python-docx==1.1.2
+markdown==3.7
+markdownify==0.14.1
+beautifulsoup4==4.12.3
+openpyxl==3.1.5
+
+# --- Image converters ---
+Pillow==11.0.0
+cairosvg==2.7.1
+
+# --- Archive converters ---
+py7zr==0.22.0
+rarfile==4.2
+
+# --- Code/data converters ---
+PyYAML==6.0.2
+xmltodict==0.14.2
+dicttoxml==1.7.16
+Pygments==2.18.0
+
+# --- OCR ---
+pytesseract==0.3.13
+
+# --- AI features ---
+anthropic==0.40.0
